@@ -1,0 +1,101 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    height: 100vh;
+    background-color: #AAAEFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home__btn {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #473757;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+.home__btn:hover {
+    transform: scale(1.2);
+}
+
+.sign__with {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    font-size: 64px;
+    border: 5px white solid;
+    background-color: #CD9FFD;
+    color: #473757;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+.sign__with.sign__with-none {
+    display: none;
+}
+
+.sign__with:hover {
+    background-color: #473757;
+    color: #AAAEFA;
+    border-color: #CD9FFD;
+}
+
+.btn {
+    display: none;
+    width: 240px;
+    height: 80px;
+    background-color: black;
+    margin: 24px;
+    border-radius: 8px;
+    text-align: center;
+    border: 5px white solid;
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.2) rotate(25deg);
+}
+
+.btn a {
+    font-size: 48px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+}
+
+.btn__google.display {
+    display: block;
+}
+
+.btn__naver.display {
+    display: block;
+}
+
+.btn__kakao.display {
+    display: block;
+}
+
+.btn__google a {
+    color: red;
+}
+
+.btn__naver a {
+    color: green;
+}
+
+.btn__kakao a {
+    color: yellow;
+}
