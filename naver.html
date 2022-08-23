@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/ed026db0da.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="naver.css">
 </head>
 <body>
     <a href="index.html" class="home__btn">
@@ -31,15 +29,26 @@
         </label>
         <label for="checkbox">
             <p>
-                <input type="checkbox" name="checkbox" class="checkbox"> Stay Signed in
+                <input type="radio" checked name="checkbox" class="checkbox"> Stay Signed in
             </p>
         </label>
-        <div class="forgot">
-            <span>
-                Forgot Your Password?
-            </span>
-        </div>
     </section>
+    <div class="bottom__line">
+        <p></p>
+    </div>
+    <div class="forgot">
+        <span>
+            Forgot Your <span class="forgot__underline">Username</span> or <span class="forgot__underline">Password?</span>
+            <span class="forgot__underline">Sign in</span>
+        </span>
+    </div>
+    <div class="link__for">
+        <p>Sign in & Join with</p>
+        <div class="link__for-btns">
+            <button class="link__btn link__btn-facebook"><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+            <button class="link__btn link__btn-line"><i class="fa-brands fa-line"></i>Line</button>    
+        </div>
+    </div>
 
 </body>
 </html>
