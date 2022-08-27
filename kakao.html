@@ -5,15 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="kakao.css">
     <script src="https://kit.fontawesome.com/ed026db0da.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&family=Silkscreen&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <a href="index.html" class="home__btn">
         <i class="fa-solid fa-house"></i>
     </a>
+    <img src="img/KakaoTalk_logo.svg.png" width="200" height="200" alt="kakao__logo" class="top__logo">
+    <section class="login">
+        <label for="email_password">
+            <p>
+                <input type="email" name="email" class="email" placeholder="Username">
+            </p>
+            <p>
+                <input type="password" name="password" class="password" placeholder="Password">
+            </p>
+        </label>
+        <label for="login__btn">
+            <input type="submit" value="Log in" class="login__btn">
+        </label>
+        <label for="checkbox">
+            <p>
+                <input type="checkbox" checked name="checkbox" class="checkbox"> Automatically log in and lock
+            </p>
+        </label>
+    </section>
+    <div class="bottom__line">
+        <p></p>
+    </div>
+    <div class="forgot">
+        <span>
+            <span>Check your Kakao Account form your</span><br>
+            <span>mobile.</span><br>
+            <span class="forgot__underline">What is Kakao account?</span>
+        </span>
+    </div>
+    <button class="find">
+        Find Password
+    </button>
 </body>
 </html>
